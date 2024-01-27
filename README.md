@@ -1,0 +1,5 @@
+This program multiplies two matrices together and saves the resulting matrix in a file (matrix3.txt, an example file was left here as well).
+The user is prompted to either type the name of a file to use already existing matrices stored in files for the result (matrix1.txt and matrix2.txt are provided to use with the program) or to enter an integer to generate new matrices to come up with the result.
+If the user types an integer, then they will be prompted for a second integer and those will be used for the rows and columns of the two matrices.
+If the user does not type an integer, the program interprets the string as a file name and looks for a file. If it finds one, it will prompt the user for a second file name.
+In either event, the program multiplies the two matrices together and prints the resulting matrix to both the console and the "matrix3.txt" file.
